@@ -4,7 +4,7 @@
 //     return a+b;
 // }
 // console.log(sum(5,4));
-// anonymous function
+//--------------------------------------------> anonymous function
 // let s=function(a:number,b:number):number{
 // return a+b;
 // }
@@ -15,7 +15,7 @@
 // }
 // console.log()
 // anonymous function
-Object.defineProperty(exports, "__esModule", { value: true });
+// import { type } from "os";
 // ----------------------------------------->positional argument
 //  let p=function(c:number,d:number):number{
 //  return c+d;
@@ -27,10 +27,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     }
 //     console.log(s(1,5))
 //--------------------------------------->optional argument
-var q = function (e, f, g) {
+let q = function (e, f, g) {
     if (typeof g !== 'undefined') {
         return e + f + g;
     }
     return e + f;
 };
 console.log(q(5, 10));
+let number1 = 2;
+let number2 = 3;
+let sum = (number1, number2) => number1 + number2;

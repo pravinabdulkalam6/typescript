@@ -1,3 +1,4 @@
+"use strict";
 // let A:number=2
 // console.log(A)
 // let A=3+100
@@ -15,16 +16,12 @@
 // let b:(number|string)[]=[];
 // b.push(1,2,3,"pravin")
 // console.log(b)
-// let c:{
-//     name:string,
-//     age:number;
-// }[]=[{name:"pravin",age:21},{name:"abdul",age:20}]
-// c.forEach(e=>{
-//     if(e.age==21)
-//     {
-//         console.log(e.name)
-//     }
-// })
+let c = [{ name: "pravin", age: 21 }, { name: "abdul", age: 20 }];
+c.forEach(e => {
+    if (e.age == 21) {
+        console.log(e.name);
+    }
+});
 // let a:{name:string,age:number}[]=[{name:"pravin",age:21},{name:"ak",age:25}]
 // let c=a.map(e=> {
 //     if(e.age==25)
@@ -35,5 +32,9 @@
 // console.log(c)
 // let person:(number|string)[]=[1,2,3,"pravin"]
 // console.log(person)
-// const circle=(diam:number):string=>
-//     'circumf = '+ Math.PI*diam;
+let a;
+a = 1;
+a = "pravin";
+a = [1, 2, 3];
+let b;
+b = a;

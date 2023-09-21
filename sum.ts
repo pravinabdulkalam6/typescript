@@ -28,14 +28,14 @@
 //     }
 //     console.log(s(1,5))
 //--------------------------------------->optional argument
-// let q=function(e:number,f:number,g?:number):number{
-//     if(typeof g!=='undefined')
-//     {
-//         return e+f+g;
-//     }
-//     return e+f;
-// }
-// console.log(q(5,10))
+let q=function(e:number,f:number,g?:number):number{
+    if(typeof g!=='undefined')
+    {
+        return e+f+g;
+    }
+    return e+f;
+}
+console.log(q(5,10))
 
 let number1:number =2;
 let number2:number = 3;

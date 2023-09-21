@@ -1,4 +1,3 @@
-var circle = function (diam) {
-    return 'circumf = ' + Math.PI * diam;
-};
+"use strict";
+const circle = (diam) => 'circumf = ' + Math.PI * diam;
 console.log(circle);

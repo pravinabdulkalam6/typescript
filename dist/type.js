@@ -16,16 +16,12 @@
 // let b:(number|string)[]=[];
 // b.push(1,2,3,"pravin")
 // console.log(b)
-// let c:{
-//     name:string,
-//     age:number;
-// }[]=[{name:"pravin",age:21},{name:"abdul",age:20}]
-// c.forEach(e=>{
-//     if(e.age==21)
-//     {
-//         console.log(e.name)
-//     }
-// })
+let c = [{ name: "pravin", age: 21 }, { name: "abdul", age: 20 }];
+c.forEach(e => {
+    if (e.age == 21) {
+        console.log(e.name);
+    }
+});
 // let a:{name:string,age:number}[]=[{name:"pravin",age:21},{name:"ak",age:25}]
 // let c=a.map(e=> {
 //     if(e.age==25)
